@@ -23,16 +23,16 @@ EDIT: you must also have the JRE (java runtime environment) installed, I believe
 
 4. That is it, your done!
    Note for APP TESTING:
-[]If you DO NOT have an android phone then you can test your apps using the Android Emulator 
+-->If you DO NOT have an android phone then you can test your apps using the Android Emulator 
   (virtual device that runs on your computer)
 
-[]If you HAVE an android phone is highly recommended that you test your app on it 
+-->If you HAVE an android phone is highly recommended that you test your app on it 
  (much faster then an emulator). In order to run apps in development on your phone 
  you must enable USB debugging. This can be down by:
  
  settings > developer options > usb debugging
 
-*note if you do not see the developer options in your settings then you must enable 
+*NOTE if you do not see the developer options in your settings then you must enable 
 them by going to:
 
  About phone > tap on Build Version continually 
