@@ -27,7 +27,7 @@ EDIT: you must also have the JRE (java runtime environment) installed, I believe
 -->If you DO NOT have an android phone then you can test your apps using the Android Emulator 
   (virtual device that runs on your computer)
 
--->If you HAVE an android phone is highly recommended that you test your app on it 
+-->If you HAVE an android phone it is highly recommended that you test your app on it 
  (much faster then an emulator). In order to run apps in development on your phone 
  you must enable USB debugging. This can be down by:
  
@@ -40,3 +40,5 @@ them by going to:
 
 (until you see a Toast message at the bottom of the screen saying "you are now a developer".)
 
+--> Your next step is to download and install your device specific ADB drivers. These are usually found
+on your device manufacturers website. Your best of googling "<INSERT DEVICE NAME> ADB drivers download".
