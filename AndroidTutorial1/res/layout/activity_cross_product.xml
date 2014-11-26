@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vector 1:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="9" >
+
+        <!--
+        weightSum is the total weight (like a weighted average) that can be applied to the layout's
+        children, in this case the editText boxex
+        -->
+
+        <EditText
+            android:id="@+id/etA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="a1"
+            android:inputType="numberSigned|numberDecimal|number" >
+
+            <!--
+            You can use the pipe to allow multiply input types. Also note how you 
+            apply a weight to a child
+            -->
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="a2"
+            android:inputType="numberSigned|numberDecimal|number" />
+
+        <EditText
+            android:id="@+id/etA3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="a3"
+            android:inputType="numberSigned|numberDecimal|number" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vector 2:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="9" >
+
+        <!--
+        weightSum is the total weight (like a weighted average) that can be applied to the layout's
+        children, in this case the editText boxes
+        -->
+
+        <EditText
+            android:id="@+id/etB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="b1"
+            android:inputType="numberSigned|numberDecimal|number" />
+
+
+        <EditText
+            android:id="@+id/etB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="b2"
+            android:inputType="numberSigned|numberDecimal|number" />
+
+        <EditText
+            android:id="@+id/etB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:hint="b3"
+            android:inputType="numberSigned|numberDecimal|number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <!--
+        The following weights demonstrate how the weight distribution is 
+        counter intuitive, a child with a smaller weight will take of more of the 
+        container then one with a higher weight
+        -->
+
+        <Button
+            android:id="@+id/bCalculate"
+            style="?android:attr/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Calculate Cross" />
+
+        <Button
+            android:id="@+id/bClear"
+            style="?android:attr/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9"
+            android:text="Clear" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="" />
+
+</LinearLayout>
