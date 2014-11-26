@@ -40,5 +40,8 @@ them by going to:
 
 (until you see a Toast message at the bottom of the screen saying "you are now a developer".)
 
---> Your next step is to download and install your device specific ADB drivers. These are usually found
-on your device manufacturers website. Your best of googling "<INSERT DEVICE NAME> ADB drivers download".
+--> Your next step is to download and install your device specific ADB drivers, these are usually found
+on your device manufacturers website. Your best is to try googling "<INSERT DEVICE NAME> ADB drivers download".
+If you can not find your devices ADB drivers try this:
+
+http://forum.xda-developers.com/google-nexus-5/development/adb-fb-apx-driver-universal-naked-t2513339
