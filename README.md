@@ -23,6 +23,7 @@ EDIT: you must also have the JRE (java runtime environment) installed, I believe
 
 4. That is it, your done!
    Note for APP TESTING:
+
 -->If you DO NOT have an android phone then you can test your apps using the Android Emulator 
   (virtual device that runs on your computer)
 
