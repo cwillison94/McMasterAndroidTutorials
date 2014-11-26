@@ -2,23 +2,25 @@ McMasterAndroidTutorials
 ========================
 
 HOW TO INSTALL ANDROID ADT/SDK:
+
 EDIT: you must also have the JRE (java runtime environment) installed, I believe I am using v1.7
+
 1. Download the android SDK and eclipse ADT bundle. This can be found here: 
    https://developer.android.com/sdk/index.html?hl=i
 
 
-1. [Alternate] If you already have eclipse installed on your computer you can install the 
+2. [Alternate] If you already have eclipse installed on your computer you can install the 
    ADT plugin using the new software feature and the update link. This can be done by:
   
    Open eclipse > help > install new software...> add > then use this link: 
    https://dl-ssl.google.com/android/eclipse/
 
-2. Once everything is downloaded/installed you must download the latest api version 
+3. Once everything is downloaded/installed you must download the latest api version 
  (In this case android 5.0, api version 21):
 
 Open eclipse >windows> Android SDK manager > tick Android 5.0 > hit install packages
 
-3. That is it, your done!
+4. That is it, your done!
    Note for APP TESTING:
  []If you DO NOT have an android phone then you can test your apps using the Android Emulator 
   (virtual device that runs on your computer)
