@@ -59,7 +59,7 @@ public class MainPage extends Activity {
 
 		items.add("Cross Product Calculator");
 		items.add("Weather Request");
-		items.add("Future item:2");
+		items.add("Fragment Example");
 		items.add("Future item:3");
 
 		/*
@@ -119,15 +119,18 @@ public class MainPage extends Activity {
 			startActivity(intent);
 			break;
 		case 1:
-
+            //item 1
             intent = new Intent(this, WeatherActivity.class);
             startActivity(intent);
 
-			// item 1
 			break;
 		case 2:
 			// item 2
-			break;
+
+            intent = new Intent(this, FragmentExample.class);
+            startActivity(intent);
+
+            break;
 		case 3:
 			// item 3
 			break;
